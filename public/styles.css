@@ -4,7 +4,7 @@
 }
 
 body {
-  background: cyan;
+  background: linear-gradient(white,cyan);
 
   color: black;
   margin-top: 20px;
@@ -20,3 +20,14 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+btn {
+                background-color: grey;
+                border: none;
+                color: white;
+}
+
+.btn:hover {
+                background-color: white;
+                color: cyan;
+              }
