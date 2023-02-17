@@ -10,13 +10,13 @@
 
   <body>
     <div class="container">
-      <h1>A Simple ToDo List App Developed from Bitlabs</h1>
+      <h1><b>A Simple ToDo List App Developed from Bitlabs</b></h1>
 
       <form action="/addtask" method="POST">
         <input type="text" name="newtask" placeholder="add new task" />
         <button class="btn">Add Task</button> <br /><br />
         <fieldset>
-          <h2><legend>Added Task</legend></h2>
+          <h2><legend><b>Added Task</b></legend></h2>
 
           <% for( var i = 0; i < task.length; i++){ %>
           <li>
@@ -30,7 +30,7 @@
       </form>
       <br /><br />
       <fieldset>
-        <h2>Completed task</h2>
+        <h2><b>Completed task</b></h2>
 
         <% for(var i = 0; i < complete.length; i++){ %>
         <li><input type="checkbox" checked /><%= complete[i] %></li>
